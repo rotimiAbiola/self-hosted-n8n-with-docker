@@ -1,0 +1,65 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.staging
+
+# SSL Certificates and private keys
+certs/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Google OAuth credentials
+client_secret_*.json
+*-credentials.json
+
+# Cloudflare tunnel credentials
+cloudflared/
+*.json
+
+# n8n backup data (contains workflows and credentials)
+local-files/
+n8n-data/
+n8n-credentials-backup.json/
+n8n-workflows-backup.json/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Compressed files with potentially sensitive data
+*.zip
+*.tar.gz
+*.rar
+
+# Executable files that might be environment-specific
+*.exe
