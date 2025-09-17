@@ -167,6 +167,9 @@ This repository uses `.gitignore` to protect sensitive data:
 ### Login Interface
 ![n8n Login Page](docs/n8n-login-page.png)
 
+### Dashboard Interface  
+![n8n Dashboard](docs/n8n-dashboard.png)
+
 The n8n interface is accessible at `http://localhost:5678` or through your configured domain with SSL.
 
 ## Production Notes
