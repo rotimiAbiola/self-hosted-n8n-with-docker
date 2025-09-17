@@ -1,5 +1,8 @@
 # n8n Docker Setup - Production Ready
 
+![n8n Login Page](docs/n8n-login-page.png)
+*n8n running locally on port 5678 with secure login interface*
+
 This setup runs n8n with Traefik as a reverse proxy, PostgreSQL database, SSL certificates, and automatic updates via Watchtower.
 
 ## Features
@@ -158,6 +161,13 @@ This repository uses `.gitignore` to protect sensitive data:
    ```bash
    docker compose up -d
    ```
+
+## Screenshots
+
+### Login Interface
+![n8n Login Page](docs/n8n-login-page.png)
+
+The n8n interface is accessible at `http://localhost:5678` or through your configured domain with SSL.
 
 ## Production Notes
 
